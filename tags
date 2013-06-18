@@ -1,0 +1,18 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+IGNORE_TEST	./test_anagrams.cpp	/^IGNORE_TEST(anagrams, long_string)$/;"	f	signature:(anagrams, long_string)
+TEST	./test_anagrams.cpp	/^TEST(anagrams, empty_input)$/;"	f	signature:(anagrams, empty_input)
+TEST	./test_anagrams.cpp	/^TEST(anagrams, one_char)$/;"	f	signature:(anagrams, one_char)
+TEST	./test_anagrams.cpp	/^TEST(anagrams, three_char)$/;"	f	signature:(anagrams, three_char)
+TEST	./test_anagrams.cpp	/^TEST(anagrams, two_char)$/;"	f	signature:(anagrams, two_char)
+TEST_GROUP	./test_anagrams.cpp	/^TEST_GROUP(anagrams)$/;"	f	signature:(anagrams)
+anagrams_create	./anagrams.h	/^anagrams_t *anagrams_create(const char *src);$/;"	p	signature:(const char *src)
+anagrams_destroy	./anagrams.h	/^void anagrams_destroy(anagrams_t *self);$/;"	p	signature:(anagrams_t *self)
+anagrams_get_item	./anagrams.h	/^char *anagrams_get_item(anagrams_t * self, unsigned int i);$/;"	p	signature:(anagrams_t * self, unsigned int i)
+anagrams_t	./anagrams.h	/^typedef struct anagrams_s anagrams_t;$/;"	t	typeref:struct:anagrams_s
+main	./AllTests.cpp	/^int main(int ac, char** av) {$/;"	f	signature:(int ac, char** av)
+test_anagrams_item_existing	./test_anagrams.cpp	/^bool test_anagrams_item_existing(anagrams_t *self, const char *item)$/;"	f	signature:(anagrams_t *self, const char *item)
